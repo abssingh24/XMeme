@@ -1,0 +1,7 @@
+<div class="parent-container">
+  <div class="toolbar">
+    <h1>{{title}}</h1>
+  </div>
+  <app-meme-form (memePostEvent)="memePostSubmit($event)"></app-meme-form>
+  <app-meme-feed [memePosted]="memePosted"></app-meme-feed>
+</div>

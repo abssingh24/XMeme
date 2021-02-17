@@ -1,0 +1,13 @@
+<div class="meme-container">
+    <ng-container *ngFor="let meme of memeList;let i = index;">
+        <div class="meme-wrapper">
+            <div class="meme-data">
+                <p id="name" class="mb-4">{{meme?.name}}</p>
+                <p id="caption" class="mb-4">{{meme?.caption}}</p>
+            </div>
+            <div class="meme-img-container mt-12">
+                <img [src]="meme.url">
+            </div>
+        </div>
+    </ng-container>
+</div>

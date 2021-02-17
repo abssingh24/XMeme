@@ -1,0 +1,3 @@
+{
+    "db_server": "mongodb+srv://abssingh24:mystyle015@cluster0.y7f7y.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}

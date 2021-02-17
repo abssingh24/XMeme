@@ -1,0 +1,23 @@
+<div class="form-container">
+    <form [formGroup]="memeForm">
+        <div class="center-align">
+            <h3>{{memPostLabel}}</h3>
+        </div>
+        <p class="err">{{errMsg}}</p>
+        <div class="form-element">
+            <label for="name">Meme Owner</label>
+            <input formControlName="name" type="text" id="name" name="name" placeholder=" Enter your full name " required>
+        </div>
+        <div class="form-element">
+            <label for="caption">Caption</label>
+            <input formControlName="caption" type="text" id="caption" name="caption" placeholder=" Be creative with the caption ">
+        </div>
+        <div class="form-element">
+            <label for="url">Meme URL</label>
+            <input formControlName="url" type="url" id="url" name="url" placeholder=" Enter the link of your meme " required>
+        </div>
+        <div class="center-align">
+            <button type="button" (click)="submitMemeForm()"> Submit </button>
+        </div>
+    </form>
+</div>

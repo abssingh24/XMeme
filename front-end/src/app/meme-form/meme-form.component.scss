@@ -1,0 +1,39 @@
+
+.form-container{
+    width: 40%;
+    max-width: 400px;
+    height: 320px;
+    margin: auto;
+}
+.form-container input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+    margin: 4px 0;
+    padding: 0 15px;
+    transition: 0.2s ease-out;
+}
+.form-container input:hover, .form-container button:hover{
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 30%);
+}
+.form-container input:focus, .form-container button:focus{
+    outline: none;
+}
+.form-container label {
+    padding-left: 4px;
+}
+.form-container button {
+    margin: 8px auto;
+    background-color: #1976d2;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+}
+.form-element {
+    margin-bottom: 8px;
+}
